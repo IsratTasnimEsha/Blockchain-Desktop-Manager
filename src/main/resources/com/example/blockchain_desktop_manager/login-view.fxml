@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="HBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.blockchain_desktop_manager.LoginController">
+    <children>
+        <AnchorPane prefHeight="500.0" prefWidth="270.0" style="-fx-background-color: #222f3e;">
+            <children>
+                <ImageView fitHeight="27.0" fitWidth="23.0" layoutX="66.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/teacher (1).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="18.0" fitWidth="30.0" layoutX="68.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/student.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="18.0" fitWidth="23.0" layoutX="69.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/EXT.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="45.0" fitWidth="43.0" layoutX="42.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image/TQ.png" />
+                    </image>
+                </ImageView>
+            <Label layoutX="78.0" layoutY="360.0" text="Chain" textFill="#f5ecb7">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="69.0" layoutY="282.0" text="Crypto" textFill="#f5ecb7">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="700.0" prefWidth="646.0">
+            <children>
+                <Label layoutX="191.0" layoutY="77.0" text="User Login" textFill="#4d5e80">
+                    <font>
+                        <Font name="System Bold" size="50.0" />
+                    </font>
+                </Label>
+                <Label layoutX="186.0" layoutY="151.0" text="Access your account" textFill="#222f3e">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Label>
+                <Label layoutX="312.0" layoutY="479.0" text="Or" textFill="#262626" />
+                <Label layoutX="176.0" layoutY="508.0" prefHeight="27.0" prefWidth="182.0" text="Not have an account ?" textFill="#262626">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="email" cache="true" cacheHint="SPEED" layoutX="175.0" layoutY="253.0" prefHeight="31.0" prefWidth="275.0" promptText="User Email" style="-fx-background-color: #f4f4f4;" />
+                <Line endX="172.0" layoutX="278.0" layoutY="284.0" startX="-103.0" stroke="#3d4b668c" />
+                <Button fx:id="btn_login" layoutX="250.0" layoutY="416.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="108.0" style="-fx-background-color: #3D4B66; -fx-cursor: hand;" text="Login" textFill="WHITE">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                    <padding>
+                        <Insets left="18.0" />
+                    </padding>
+                </Button>
+                <Button fx:id="btn_signup" layoutX="358.0" layoutY="500.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="99.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign-up!" textFill="#3d4b66" underline="true">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <effect>
+                        <ColorAdjust />
+                    </effect>
+                </Button>
+                <PasswordField fx:id="pass" layoutX="174.0" layoutY="332.0" prefHeight="31.0" prefWidth="276.0" promptText="Password" style="-fx-background-color: #f4f4f4;" />
+                <ImageView fitHeight="21.0" fitWidth="17.0" layoutX="267.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+                    <image>
+                        <Image url="@../../../../java/com/example/blockchain_desktop_manager/image/in.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="21.0" fitWidth="23.0" layoutX="142.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../java/com/example/blockchain_desktop_manager/image/usr.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="139.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../java/com/example/blockchain_desktop_manager/image/rol.png" />
+                    </image>
+                </ImageView>
+                <Line endX="177.0" endY="1.0" layoutX="273.0" layoutY="362.0" startX="-99.0" startY="1.0" stroke="#3d4b668c" />
+                <ImageView fx:id="mini" fitHeight="29.0" fitWidth="23.0" layoutX="590.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+                    <image>
+                        <Image url="@image/minu.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>
