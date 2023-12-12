@@ -21,10 +21,6 @@ As the project is incomplete, it includes basic functionalities for user authent
 
 This project was created as part of the learning process and does not represent a fully functional blockchain manager.
 
-## License
-
-This project is shared for educational purposes and is not intended for production use. Feel free to use, modify, and learn from it. [MIT License](LICENSE).
-
 ## Authors
 
 - Israt Tasnim Esha
