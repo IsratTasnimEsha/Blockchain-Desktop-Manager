@@ -26,7 +26,7 @@ This project was created as part of the learning process and does not represent 
 - **Israt Tasnim Esha** (1907090)
 - **Hasibul Hasan Hasib** (1907089)
 
-**System Project**  
+**CSE 3200 - System Development Project**  
 3rd Year, 2nd Semester  
 *Department of Computer Science and Engineering*  
 *Khulna University of Engineering and Technology*
