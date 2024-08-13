@@ -25,9 +25,6 @@ This project was created as part of the learning process and does not represent 
 
 - **Md. Ahsan Habib, Lecturer**
 
-*Department of Computer Science and Engineering*  
-*Khulna University of Engineering and Technology*
-
 ## Authors
 
 - **Israt Tasnim Esha** (1907090)
