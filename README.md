@@ -27,6 +27,5 @@ This project was created as part of the learning process and does not represent 
 - **Hasibul Hasan Hasib** (1907089)
 
 **CSE 3200 - System Development Project**  
-3rd Year, 2nd Semester  
 *Department of Computer Science and Engineering*  
 *Khulna University of Engineering and Technology*
