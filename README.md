@@ -21,6 +21,13 @@ As the project is incomplete, it includes basic functionalities for user authent
 
 This project was created as part of the learning process and does not represent a fully functional blockchain manager.
 
+## Supervisor
+
+- **Md. Ahsan Habib, Lecturer**
+
+*Department of Computer Science and Engineering*  
+*Khulna University of Engineering and Technology*
+
 ## Authors
 
 - **Israt Tasnim Esha** (1907090)
